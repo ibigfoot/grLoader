@@ -3,3 +3,7 @@ target
 .project
 .classpath
 .settings/
+data/*
+/data
+errors.txt
+cleanFile.csv

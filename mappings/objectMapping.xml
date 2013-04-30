@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mappings>
+<objectMapping name="Account">
+	<fieldMapping sfFieldName="Constituent_ID__c" csvFieldName="Constituent_ID"/>
+	<fieldMapping sfFieldName="Account_Email__c" csvFieldName="Account_Email"/>
+	<fieldMapping sfFieldName="Is_Account_Email_Active__c" csvFieldName="Is_Account_Email_Active"/>
+	<fieldMapping sfFieldName="Salutation__c" csvFieldName="Salutation"/>
+	<fieldMapping sfFieldName="Name" csvFieldName="First_Last_Names"/>
+	<fieldMapping sfFieldName="Surname__c" csvFieldName="Surname"/>
+	<fieldMapping sfFieldName="BillingCountry" csvFieldName="Country"/>
+	<fieldMapping sfFieldName="BillingState" csvFieldName="State"/>
+	<fieldMapping sfFieldName="BillingCity" csvFieldName="Suburb"/>
+	<fieldMapping sfFieldName="BillingPostalCode" csvFieldName="Postcode"/>
+	<fieldMapping sfFieldName="Address_Type__c" csvFieldName="Address_Type"/>
+	<fieldMapping sfFieldName="BillingStreet" csvFieldName="Address"/>
+	<fieldMapping sfFieldName="How_Did_You_Find__c" csvFieldName="Is_How_Did_You_Find"/>
+	<fieldMapping sfFieldName="Age_Range__c" csvFieldName="Age_Range_Value"/>
+	<fieldMapping sfFieldName="How_Did_You_Find_2__c" csvFieldName="Is_How_Did_You_Find_02"/>
+	<fieldMapping sfFieldName="How_Did_You_Find_Value__c" csvFieldName="How_Did_You_Find_Value"/>
+	<fieldMapping sfFieldName="Secondary_Appeal__c" csvFieldName="Is_Secondary_Appeal"/>
+	<fieldMapping sfFieldName="Secondary_Date__c" csvFieldName="Is_Secondary_DateTime"/>
+	<fieldMapping sfFieldName="Most_Recent_Secondary_Appeal__c" csvFieldName="Most_Recent_Secondary_Appeal"/>
+	<fieldMapping sfFieldName="Most_Recent_Secondary_Appeal_Comments__c" csvFieldName="Most_Recent_Sec_Appeal_Cmnts"/>
+	<fieldMapping sfFieldName="Initial_Appeal__c" csvFieldName="Initial_Appeal"/>
+	<fieldMapping sfFieldName="Initial_Appeal_Date__c" csvFieldName="Is_Initial_Appeal_DateTime"/>
+	<fieldMapping sfFieldName="Account_Access__c" csvFieldName="Action_AccountAccess"/>
+	<fieldMapping sfFieldName="Account_Access_Start_Date__c" csvFieldName="Action_AccountAccessStartDate"/>
+</objectMapping>
+<objectMapping name="Order_Details__c">
+	<fieldMapping sfFieldName="Order_ID__c" csvFieldName="Order_ID"/>
+	<fieldMapping sfFieldName="Order_Date__c" csvFieldName="Order_Date"/>
+	<fieldMapping sfFieldName="Constituent__c" csvFieldName="Constituent_ID"/>
+	<fieldMapping sfFieldName="Purchasor__c" csvFieldName="Purchasor"/>
+	<fieldMapping sfFieldName="ID__c" csvFieldName="ID"/>
+	<fieldMapping sfFieldName="Name__c" csvFieldName="Name"/>
+	<fieldMapping sfFieldName="Loan__c" csvFieldName="Loan"/>
+	<fieldMapping sfFieldName="Loan_Donated__c" csvFieldName="Loan_Dontated"/>
+	<fieldMapping sfFieldName="Donation__c" csvFieldName="Donation"/>
+	<fieldMapping sfFieldName="Certificate_01__c" csvFieldName="Certificate_01"/>
+	<fieldMapping sfFieldName="Fee__c" csvFieldName="Fee"/>
+	<fieldMapping sfFieldName="PayPal__c" csvFieldName="PayPal"/>
+	<fieldMapping sfFieldName="Other__c" csvFieldName="Other"/>
+	<fieldMapping sfFieldName="Re_allocated__c" csvFieldName="Re-allocated"/>
+	<fieldMapping sfFieldName="Certificate_02__c" csvFieldName="Certificate_02"/>
+</objectMapping>
+</mappings>
